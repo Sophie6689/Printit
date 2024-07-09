@@ -59,8 +59,8 @@ arrow_right.addEventListener("click", () => {
 
 //création bullet points
 
-let node = ""
-for(let i = 0; i < slides.length; i++){
+let node = `<div class="dot dot_selected"></div>`
+for(let i = 1; i < slides.length; i++){
 	node = node + `<div class="dot"></div>`
 }
 let dots = document.querySelector(".dots");
